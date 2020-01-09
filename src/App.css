@@ -1,0 +1,92 @@
+.header-container {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #4caf50;
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+
+.score-container {
+  float: right;
+}
+
+.score-value {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  outline: none;
+}
+
+.row img {
+  width: 130px;
+  height: 180px;
+  margin: 5px;
+}
+
+.card-back {
+  width: 130px;
+  height: 180px;
+  background: green;
+  margin: 5px;
+}
+
+.show {
+  display: inline-block;
+}
+
+.hide {
+  display: none;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 10px;
+}
+
+.deck-disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.score-table-container {
+  margin: 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
